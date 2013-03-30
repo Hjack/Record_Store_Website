@@ -1,0 +1,55 @@
+
+
+* {
+	background-color:gray
+	;
+}
+
+h1 {
+	font-family:arial black;
+	border: 4px solid;
+	text-align:center;		
+}
+
+.music_catergory {
+	font-family:arial black;
+		
+}
+
+div {
+	height: 50px;
+	width: 100px;
+	border: 4px solid black;
+	border-radius: 15px;
+	text-align:center;
+	display:inline-block;
+	
+				
+}
+
+img {
+
+	border: 2px solid black;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+	
+}
+
+a {
+	text-decoration:none;
+}
+a:link, a:visited {
+	color:black;
+}
+a:hover {
+	color: white;
+}
+
+/*Not sure how the code below works.  Used it to get rid of rectangle got it from...http://stackoverflow.com/questions/3660831/getting-rid-of-the-blue-focus-rectangle-on-input-boxes-in-html-css*/
+a {
+	input:focus;
+	textarea:focus;
+	outline:none;
+}
+
+
+
